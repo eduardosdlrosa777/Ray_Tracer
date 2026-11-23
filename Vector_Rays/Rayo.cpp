@@ -82,10 +82,6 @@ class Rayo{
     Vector puntoEn(double t) const{
         return origen.sumaVectores(direccion.multEscalar(t));
     }
-    /* ¿Choca con esfera o con el plano? que lo muestre ifs y elses xdxd*/
-    Vector choqueEn()
-
-    /* Luz */
 
 
 };
