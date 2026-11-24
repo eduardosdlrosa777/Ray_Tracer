@@ -32,6 +32,7 @@ namespace scn {
         const CameraConfig& getCamara() const;
         const Color& getFondo() const;
         double getLightAmb() const;
+        const std::vector<Lighting>& getLuces() const;
         const std::vector<std::unique_ptr<Hittable>>& getFiguras() const;
         // Setters
         void setCamara(const CameraConfig& camara);
